@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+body{
+	background-color: #000000;
+}
+
+#contenedor{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+h1, h2{margin-top: 25px;
+	color: #ffffff;
+	font-family: arial;
+	margin-bottom: 10px; 
+	text-align: left;
+	font-family: 'Rampart One', cursive;
+}
+
+p{
+	color: #ffffff;
+	font-family: 'Quicksand', sans-serif;
+}
+
+li{
+	font-family: 'Quicksand', sans-serif;
+}
+
+.ejercicio {
+		color: #ffffff;
+		font-family: arial;
+		text-align: justify;
+		font-size: 20px;
+
+}
+
+
+
+.multifondo {
+	width: 960px;
+	height: 640px;
+	background-color: green;
+	background-image: url(../img/mesa.jpg), url(../img/dados.png);
+	background-position: 0% 0%, 0% 100%;
+	background-repeat: no-repeat;
+}
+
+.transparencia, .sombra, .degradado {
+	width: 960px;
+	height: 640px;
+	background-color: green;
+	font-size: 20px;
+	padding-top: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.blur{
+	filter: blur(3px);
+}
+
+.sepia{
+	filter: sepia(80%);
+}
+
+#columnas{
+	column-count: 3;
+	column-gap: 40px;
+	column-rule: 1px solid #ffff;
+}
+
+.transparencia{
+	color: rgba(255, 255, 255, 0.5);
+
+}
+
+.degradado{
+	background-image: linear-gradient(rgb(0,0,0) 0%, rgb(84,51,106) 50%, rgb(169,102,213) 100%);
+}
+
+.sombra{
+	text-shadow: -5px -5px 5px #000000;
+}
+
+#bordes{
+	border: 2px solid #FEDFE1;
+	border-radius: 50px;
+}
+
+.multifondo{
+	background-image: url(img/mesa.jpg) url(img/dados.png);
+	background-repeat: no-repeat;
+}
+
+
+
+
+
